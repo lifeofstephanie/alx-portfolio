@@ -29,9 +29,14 @@
     font-size: 15px;
     font-weight: 600;
 }
-.buttom  button:nth-child(1){
+.buttom.buttons .first{
     background-color: #33cc99;
     color: white;
+    cursor: pointer;
+}
+.buttom.buttons .first:hover{
+    background: #003366;
+    border: #33cc99 1px solid;
 }
 
 .buttom {
@@ -39,8 +44,14 @@
     flex-wrap: wrap;
     gap: 30px;
 }
-.buttom  button:last-child{
+.buttom.buttons  .last{
     background: #ccc;
+    cursor: pointer;
+}
+.buttom.buttons .last:hover{
+    background: #003366;
+    border: #ccc 1px solid;
+    color: #fff;
 }
 .article .right-side {
     width:50% ;

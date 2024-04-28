@@ -1,4 +1,3 @@
-
 .login{
     /* margin: auto;
     width: 80%; */
@@ -6,13 +5,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background: url('../../assets//landing3.jpg'); */
     
 }
 .start img{
     width: 30px;
     border-radius: 20px;
-    /* background: #ccc; */
 }
 .start{
     display: flex;
@@ -26,26 +23,26 @@
 }
 .start h2{
     background: transparent;
+    /* color: ; */
 }
 .form{
     box-shadow: 5px 5px 5px #ccc;
     margin-top:15%;
     padding: 5px;
-    background: #cccccc;
-    /* background: url('../../assets/landing3.jpg'); */
-    /* background-size: fill; */
+    /* background: #cccccc; */
     width: 300px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     gap: 30px;
+    /* color: #ccc; */
 
     
     /* background: #cccccc; */
 
 }
 .details{
-    /* background: #ccc; */
+    background: transparent;
     padding-left: 5px;
     padding-right: 5px;
 }
@@ -63,6 +60,8 @@ a{
 .details form input, select, option{
     background: transparent;
 }
+
+
 input,select{
     border-radius: 10px;
     height: 30px;
@@ -87,6 +86,7 @@ input,select{
     gap: 10px;
     align-items: center;
     justify-content: center;
+    /* background: transparent; */
 }
 .login-button div{
     width: fit-content;
@@ -112,10 +112,10 @@ input,select{
 }
 
 .error-success svg, .error-success span{
-    background: transparent;
+    background: #ccc;
 }
 .error-success {
-    background: transparent;
+    background: #ccc;
     display: flex;
     height: 60px;
     justify-content: center;

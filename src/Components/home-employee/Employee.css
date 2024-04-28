@@ -1,0 +1,149 @@
+/* *{
+    background: #ccc;
+} */
+.text{
+    width: 400px;
+    /* margin-left: auto; */
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background: #003366;
+    /* margin-right: auto; */
+    margin-top: 100px;
+}
+.text h3{
+    width: 250px;
+    font-size: 25px;
+    color: #ccc;
+    background: #003366;
+}
+.text b{
+    color: #33cc99;
+    background: #003366;
+}
+.filter {
+    background: #ccc;
+    width: 445px;
+    border-radius: 10px;
+    height: 40px;
+    display: flex;
+    padding-left: 10px;
+    /* gap: 5px; */
+    
+}
+.filter input{
+    background: #ccc;
+    height: 40px;
+    border: 0;
+    border-radius: 0;
+    /* border-left: 0; */
+}
+.filter input:first-child{
+    border-right: 1px solid #003366;
+}
+
+.filter button{
+    background: #33cc99;
+    border: none;
+    width: 100px;
+    border-radius: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.hero{
+    display: flex;
+}
+.right .hero-image {
+    width: 300px;
+    position: absolute;
+    top: -80px;
+    left:55%;
+    background: none;
+}
+.left {
+    width: 66%;
+    background: #003366;
+    padding-bottom: 160px;
+    box-shadow: 1px 1px 1px #ccc;
+}
+.right{
+    background: #66ccff;
+    width: 40%;
+}
+.profile{
+    background: none;
+    border: none;
+    width: 30px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.job-listing h1{
+    text-align: center;
+    color: #ccc;
+}
+.job-listing hr{
+    width: 80px;
+    height: 4px;
+    background: #33cc99;
+    border: none;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.job-listing{
+    padding: 30px;
+
+}
+.jobs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+
+}
+.jobs li{
+    border: 1px solid #003366;
+    /* background: #ccc; */
+    color: #33cc99;
+    list-style: none;
+}
+.jobs div{
+    background: #ccc;
+}
+.job-preview{
+    padding: 10px 16px;
+    margin: 20px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  .job-preview a {
+    text-decoration: none;
+  }
+  .job-preview:hover{
+    box-shadow: 1px 3px 5px #ccc;
+    /* cursor: pointer; */
+  }
+  .job-preview h2{
+    font-size: 20px;
+    color: #ccc;
+    margin-bottom: 8px;
+    /* text-align: left; */
+  }
+  .bloglist h1{
+    text-align: center;
+    color: #ccc;
+  }
+.job-preview p{
+    color: #33cc99;
+}
+.bloglist hr{
+    width: 150px;
+    height: 4px;
+    background: #33cc99;
+    border-radius: 5px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}

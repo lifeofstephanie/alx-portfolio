@@ -6,13 +6,13 @@ import Article from "./article/article"
 const Home = ()=>{
     return (
         <div className="home">
-            <div className="navbar">
-                <div className="logo">
+            <div className="navbarr">
+                <Link to='/'><div className="logo">
                     <img src={logo} alt="" />
-                <Link to='/'><h2>Career Compass</h2></Link></div>
+                <h2>Career Compass</h2></div></Link>
                     <div className="top buttons">
-                        <button>Log In</button>
-                        <button>Get Started</button>
+                        <Link to='/login'><button className="first">Log In</button></Link>
+                        <Link to='/signup'><button className="second">Get Started</button></Link>
                         
                 </div>
             </div>
