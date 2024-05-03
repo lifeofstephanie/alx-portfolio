@@ -1,7 +1,10 @@
 *{
   margin: 0;
-  color: #333;
+  /* color: #333; */
   font-family: 'Poppi';
-  background: #003366;
+  /* background: #003366; */
   /* color: white; */
+}
+body{
+  background: #003366;
 }

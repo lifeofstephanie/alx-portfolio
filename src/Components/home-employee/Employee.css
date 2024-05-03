@@ -34,14 +34,15 @@
 }
 .filter input{
     background: #ccc;
-    height: 40px;
+    height: 38px;
     border: 0;
     border-radius: 0;
+    width: 80%;
     /* border-left: 0; */
 }
-.filter input:first-child{
+/* .filter input:first-child{
     border-right: 1px solid #003366;
-}
+} */
 
 .filter button{
     background: #33cc99;
@@ -96,7 +97,7 @@
     padding: 30px;
 
 }
-.jobs{
+/* .jobs{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -106,37 +107,35 @@
 }
 .jobs li{
     border: 1px solid #003366;
-    /* background: #ccc; */
+    background: #ccc;
     color: #33cc99;
     list-style: none;
-}
-.jobs div{
-    background: #ccc;
-}
+} */
+
 .job-preview{
     padding: 10px 16px;
     margin: 20px 0;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #003366;
   }
   .job-preview a {
     text-decoration: none;
   }
   .job-preview:hover{
-    box-shadow: 1px 3px 5px #ccc;
+    box-shadow: 1px 3px 5px #000;
     /* cursor: pointer; */
   }
   .job-preview h2{
     font-size: 20px;
-    color: #ccc;
+    color: #003366;
     margin-bottom: 8px;
     /* text-align: left; */
   }
   .bloglist h1{
     text-align: center;
-    color: #ccc;
+    color: #003366;
   }
 .job-preview p{
-    color: #33cc99;
+    color: #000;
 }
 .bloglist hr{
     width: 150px;
@@ -146,4 +145,9 @@
     border: none;
     margin-left: auto;
     margin-right: auto;
+}
+.bloglist{
+    background: #ccc;
+    padding-top: 30px;
+    height: 100%;
 }

@@ -10,6 +10,7 @@ const Bloglist =({jobs,title})=>{
               <Link to={`/jobs/${job.id}`}><h2>{job.Title}</h2></Link>
               <p>{job.Employer}</p>
               <p>{job.Location}</p>
+              <p>{job.Duration}</p>
             </div>
           ))}
         </div>

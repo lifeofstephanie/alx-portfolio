@@ -1,13 +1,15 @@
-import Navbar from "../Nabvar/Navbar";
-import "./Employee.css";
+import Navbar from "../Nabvar/Navbar"
 import hero from "../../assets/hero2.png";
 import profile from "../../assets/profile.png";
 import Bloglist from "../JobList";
-import { useEffect, useState } from "react";
 import jobs from "../../data/jobs";
+import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+// import '../home-employee/Employee.css'
 
-const Employee = () => {
-  const [jobsData, setJobs] = useState(jobs);
+
+const Employer=()=>{
+    const [jobsData, setJobs] = useState(jobs);
   const [text, setText] = useState("");
   const textCHangeHandler = (event) => {
     setText(event.target.value);
@@ -26,15 +28,14 @@ const Employee = () => {
     searchHandler(text);
     console.log(jobsData);
   }, [text]);
-  return (
-    <div className="employee">
-      <div className="hero">
+    return(
+        <div className="employer">
+        <div className="hero">
         <div className="left">
           <Navbar />
           <div className="text">
             <h3>
-              Searching for a job? Find the <b>best startup</b> job that fits
-              you
+              Ready to Empower your startup? Find your <b>Ideal Match </b>Today
             </h3>
             <div className="filter">
               <input
@@ -46,7 +47,7 @@ const Employee = () => {
                 onChange={textCHangeHandler}
                 chan
               />
-              <button>Search</button>
+              <Link to='/employer/add'><button>Add Jobs</button></Link>
             </div>
           </div>
         </div>
@@ -54,15 +55,11 @@ const Employee = () => {
           <img src={hero} alt="" className="hero-image" />
           <img src={profile} alt="" className="profile" />
         </div>
+
       </div>
       <div>{<Bloglist jobs={jobsData} title="Job List" />}</div>
-      {/* <ul>
-        {filteredJobs.map(job=>(
-          <li key={job.id}>{job.Title}</li>
-        ))} */}
-      {/* </ul> */}
-      {/* <Bloglist/> */}
-    </div>
-  );
-};
-export default Employee;
+      
+      </div>
+    )
+}
+export default Employer
